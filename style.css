@@ -1,0 +1,85 @@
+
+/* normal tag style */
+html {
+    height: 100%;
+    width: 100%;
+    font-family: 'Mooli', sans-serif;
+  }
+  
+  body{
+    padding-left: 250px;
+    padding-right: 20px;
+    text-align:center;
+  }
+  
+  p
+  {
+    font-size: 24px;
+  }
+  
+  h1 {
+    font-size: 40px;
+    color: darkred;
+  }
+  
+  
+  table {
+    margin-left:auto ;
+    margin-right:auto;
+  }
+  
+  iframe{
+    margin-left:auto;
+    margin-right:auto;
+  }
+  
+  ul{
+    list-style:inside; 
+    font-size:24px;
+    list-style-type: "🦆";
+  }
+  
+  /* class styles */
+  .other{
+    background-color:#642b36 ;
+  }
+  
+  .monsters{
+    background-color: #939681;
+  }
+  
+  .science{
+    background-color: #d2b2b7;
+  }
+  
+  .dramatic{
+    margin-left:auto;
+    margin-right:auto;
+    box-shadow: 1px 1px black;
+  }
+  
+  .sbar {
+    height: 100%;
+    width: 230px;
+    position: fixed;
+    background-color: #7D7C7C;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+  
+  }
+  
+  .sbar a:hover
+  {
+    color:#cdb4b7;
+  }
+  
+  /* items of the sidebar */
+  .sbar a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #FFFFFF;
+    display: block;
+  }
