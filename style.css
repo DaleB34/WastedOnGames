@@ -35,7 +35,10 @@ html {
 
   td:nth-child(even), th:nth-child(even) {
     background-color: #D6EEEE;
-    width:25%;
+  }
+
+  th {
+    width: 100px;
   }
   
   
