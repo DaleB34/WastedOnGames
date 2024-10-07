@@ -42,10 +42,15 @@
 
 
 <script>
-    const apiUrl = ""
+    import SteamAPI from 'steamapi';
+    const steam = new SteamAPI('C021017D2A839D32E50154A4E556C847')
+    
 
-    function addRow(e)
+    function addRow()
     {
+        steam.resolve('https://steamcommunity.com/id/poggersighted').then(id => {
+        console.log(id);
+    })
         
     }
     
